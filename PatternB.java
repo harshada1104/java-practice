@@ -8,7 +8,8 @@ public class PatternB {
         // Pattern6(5);
         // Pattern7(5);
         // Pattern8(5);
-        Pattern9(5);
+        // Pattern9(5);
+        Pattern11(6);
     }
 
     // ****
@@ -161,30 +162,26 @@ public class PatternB {
 
     }
 
-    static void Pattern10(int n){
-        for ( int row = 0 ; row<n ; row++){
-            for ( int col = 0 ; col<= row; col++){
+    static void Pattern10(int n) {
+        for (int row = 0; row < n; row++) {
+            for (int col = 0; col <= row; col++) {
 
-                
-            }
-        }
-    }
-     static void Pattern11(int n){
-        for ( int row = 0 ; row<n ; row++){
-            for ( int col = 0 ; col<= row; col++){
-
-                
-            }
-        }
-    }
-    static void Pattern12(int n){
-        for ( int row = 0 ; row<n ; row++){
-            for ( int col = 0 ; col<= row; col++){
-
-                
             }
         }
     }
 
-
+    static void Pattern11(int n) {
+        int start = 1;
+        for (int row = 0; row <= n; row++) {
+            if (row % 2 == 0)
+                start = 1;
+            else
+                start = 0;
+            for (int col = 0; col <= row; col++) {
+                System.out.print(start);
+                start = 1 - start; // Toggle between 0 and 1
+            }
+            System.out.println();
+        }
+    }
 }
