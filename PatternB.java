@@ -287,6 +287,17 @@ public class PatternB {
             System.out.println();
         }
     }
+static void Pattern19(int n) {
+        for (int row = 0; row <= n; row++) {
+            char ch = (char) ('A' + n);
+            for (int col = 0; col <= row; col++) {
+
+                System.out.print(ch);
+                ch--;
+            }
+            System.out.println();
+        }
+    }
 
     
 }
