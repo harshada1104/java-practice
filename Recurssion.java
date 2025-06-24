@@ -37,5 +37,15 @@ static void linear1(int n){
      linear( deductor++);
    }
 }
+static void linear2(int n){
+    int deductor = 0;
+   if (deductor==5){
+   return;
+   }else{
+    System.out.println(deductor);
+  
+     linear( deductor++);
+   }
+}
 
 }
