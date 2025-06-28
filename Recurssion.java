@@ -67,5 +67,14 @@ static void linear5(int n){
      linear( deductor++);
    }
 }
-
+static void linear6(int n){
+    int deductor = 0;
+   if (deductor==5){
+   return;
+   }else{
+    System.out.println(deductor);
+  
+     linear( deductor++);
+   }
+}
 }
