@@ -63,7 +63,6 @@ public class Recurssion {
         
  }
 
- //print the reverse array
   //function to print an array
   static void printArray(int ans[],int n){
     System.out.println("reversed array is ");
@@ -72,7 +71,17 @@ public class Recurssion {
     }
   }
 
+   //print the reverse array
   static void reverseArray(int arr[],int start,int end){
+ if(start<end){
+    int tmp = arr[start];
+    arr[start]=arr[end];
+    arr[end]=tmp;
+    reverseArray(arr, start+1, end-1);
+ }
+  }
+     //print the reverse array
+  static void reverseArray1(int arr[],int start,int end){
  if(start<end){
     int tmp = arr[start];
     arr[start]=arr[end];
