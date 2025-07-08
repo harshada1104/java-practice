@@ -89,7 +89,15 @@ public class Recurssion {
     reverseArray(arr, start+1, end-1);
  }
   }
-
+     //print the reverse array
+  static void reverseArray2(int arr[],int start,int end){
+ if(start<end){
+    int tmp = arr[start];
+    arr[start]=arr[end];
+    arr[end]=tmp;
+    reverseArray(arr, start+1, end-1);
+ }
+  }
 
     
     
