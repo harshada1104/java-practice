@@ -99,6 +99,15 @@ public class Recurssion {
  }
   }
 
+    static void reverseArray3(int arr[],int start,int end){
+ if(start<end){
+    int tmp = arr[start];
+    arr[start]=arr[end];
+    arr[end]=tmp;
+    reverseArray(arr, start+1, end-1);
+ }
+  }
+
     
     
     public static void main(String[] args) {
