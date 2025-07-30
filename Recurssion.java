@@ -70,6 +70,13 @@ public class Recurssion {
         System.out.println(ans[i]+" ");
     }
   }
+    static void printArray11(int ans[],int n){
+    System.out.println("reversed array is ");
+    for(int i = 0;i<n;i++){
+        System.out.println(ans[i]+" ");
+    }
+  }
+  
 
    //print the reverse array
   static void reverseArray(int arr[],int start,int end){
@@ -115,106 +122,7 @@ public class Recurssion {
     reverseArray(arr, start+1, end-1);
  }
   }
-       static void reverseArray55 (int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-  }
-
-         static void reverseArray56 (int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-  }
-           static void reverseArray57(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-     static void reverseArray58(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-    static void reverseArray59(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-  static void reverseArray60(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-
- static void reverseArray61(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-    
- static void reverseArray62(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
- static void reverseArray64(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
- static void reverseArray65(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-static void reverseArray68(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
-
- static void reverseArray63(int arr[],int start,int end){
- if(start<end){
-    int tmp = arr[start];
-    arr[start]=arr[end];
-    arr[end]=tmp;
-    reverseArray(arr, start+1, end-1);
- }
-}
+      
     public static void main(String[] args) {
     //   print();
     //   printname(0, 4);
