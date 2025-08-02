@@ -88,7 +88,7 @@ public class Recurssion {
         System.out.println(ans[i]+" ");
     }
   }
-   static void printArray17(int ans[],int n){
+   static void printArray18(int ans[],int n){
     System.out.println("reversed array is ");
     for(int i = 0;i<n;i++){
         System.out.println(ans[i]+" ");
