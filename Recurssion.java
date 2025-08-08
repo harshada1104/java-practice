@@ -106,6 +106,12 @@ public class Recurssion {
         System.out.println(ans[i]+" ");
     }
   }
+    static void printArray46(int ans[],int n){
+    System.out.println("reversed array is ");
+    for(int i = 0;i<n;i++){
+        System.out.println(ans[i]+" ");
+    }
+  }
       static void printArray20(int ans[],int n){
     System.out.println("reversed array is ");
     for(int i = 0;i<n;i++){
