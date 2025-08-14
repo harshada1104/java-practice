@@ -3,6 +3,7 @@ public class Hashmap {
     
 System.out.println("Hello, World! This is a Hashmap example Hashmap example = new Hashmap();  example.runExample();  ");
 
+System.out.println("Hello, World! This is a Hashmap example Hashmap example = new Hashmap();  example.runExample();  ");
 
    } 
 
