@@ -1,7 +1,7 @@
 public class Sum {
 
     public static void main(String[] args) {
-        int array[] = { 3,3};
+        int array[] = { 3, 3 };
         sum(array, 6);
 
     }
